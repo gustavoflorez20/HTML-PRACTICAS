@@ -1,0 +1,147 @@
+
+
+body
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+
+a
+{
+    text-decoration: none;
+    color: white
+}
+
+header
+{
+    background-color: black;
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  
+}
+
+.logo{
+
+    align-items: center;
+    display: flex;
+
+}
+
+.logo img
+{  
+    height: 60px;
+    margin-right: 10px;
+    margin: 20px;
+    right: 200px;
+    
+}
+
+div {
+    font-weight: 1000;
+    padding-right: 10px;
+    align-items: center;
+    color:white 
+    
+}
+
+  #contenedor 
+  {
+    display:flex;
+    justify-content: left;
+    padding: 35px;
+    height: 30vh;
+    background-color: blue;
+  }
+    
+ .btn-1
+  {
+    
+    border: 2px solid black;
+    border-radius:20px;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    padding: auto;
+    padding: 10px 15px;
+  
+  }
+  
+.btn-2
+  {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+    padding: auto;
+    padding: 10px 12px;
+  
+   
+    
+}
+
+div#primero
+{
+    height: 100px;
+    margin-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: black;
+   word-spacing: 30px;
+   justify-content: space-between;
+
+   
+}
+
+div#segundo 
+{
+    
+   height: 100px;
+   align-items: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: white;
+   justify-content: center;
+   display: flex;
+   justify-content: center;
+   
+}
+
+div#tercero
+ {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    position: absolute;
+    margin: auto;
+   background-color: white;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   text-align: center;
+   justify-content: space-between;
+  }
+
+div#cuarto
+{
+    position: absolute;
+    margin: auto;
+    background-color: white;
+   justify-self: center;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   text-align: center;
+   
+}
+
+
+
+.a { display: none; }
+.b { display: inline; width: 100px; height: 50px;}
+.c { display: block; }
+.d { display: inline-block; width: 100px; height: 50px;}
+p  { color: rgb(241, 232, 241); border: dotted;}
